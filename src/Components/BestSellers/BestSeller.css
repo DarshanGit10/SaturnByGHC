@@ -1,0 +1,47 @@
+.bestseller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.bestseller p {
+  margin: 0;
+  font-weight: bold;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.18px;
+}
+
+.bestseller button {
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 4px 20px 5px 19px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #333;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (max-width: 320px) {
+  .bestseller {
+    flex-direction: column;
+  }
+
+  .bestseller p,
+  .bestseller button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bestseller button {
+    margin-top: 10px;
+  }
+}

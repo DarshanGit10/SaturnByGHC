@@ -1,0 +1,84 @@
+.iconsContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  margin-top: 10px;
+}
+
+.iconsContainer ul {
+  padding: 0;
+  margin: 5px;
+  width: calc(50% - 10px);
+}
+
+.iconsContainer li {
+  list-style-type: none;
+  height: 65px;
+  width: 65px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.iconsContainer img {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iconsContainer li p {
+  margin: 0;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcomeJune {
+  margin: 3.5rem 0 0;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 11px;
+}
+
+.iconsContainer ul {
+  display: inline-block;
+}
+
+/* Media queries */
+@media (min-width: 321px) {
+  .iconsContainer {
+    flex-wrap: nowrap;
+  }
+  .iconsContainer ul {
+    width: auto;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 576px) {
+  .iconsContainer ul:nth-child(n + 5) {
+    display: none;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 577px) and (max-width: 768px) {
+  .iconsContainer ul:nth-child(8),
+  .iconsContainer ul:nth-child(7) {
+    display: none;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 769px) and (max-width: 992px) {
+  .iconsContainer ul:nth-child(6) {
+    display: none;
+  }
+}

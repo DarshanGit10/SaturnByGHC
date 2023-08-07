@@ -1,0 +1,55 @@
+.footerNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 0px 20px;
+  height: 66px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbarItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+
+.navbarItem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbarText {
+  color: #333;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 150% */
+}
+.navbarIcon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .footerNavbar {
+    justify-content: center;
+  }
+
+  .navbarIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

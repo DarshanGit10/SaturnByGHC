@@ -1,0 +1,267 @@
+.threeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.wellnessContainer {
+  box-sizing: border-box;
+  min-width: 336px;
+  position: relative;
+  margin: 0px 12px;
+}
+
+.overview {
+  display: flex;
+  height: 114px;
+  width: 350px;
+  padding-bottom: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    #efeefb;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.overviewLeft {
+  position: absolute;
+  top: 20px;
+  left: 23px;
+}
+
+.overviewRight {
+  position: absolute;
+  top: 5px;
+  left: 197px;
+}
+
+.wellness {
+  color: #333;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.wellnessNumber {
+  color: #333;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  margin-left: 25px;
+}
+
+.overweight {
+  position: absolute;
+  top: 45px;
+  left: 72px;
+  color: #fa725f;
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 10px;
+  background: #fff;
+  width: 55px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  color: #777;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.overviewRight {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 5px;
+  left: 197px;
+  margin-top: 2px;
+  flex-direction: column;
+}
+
+.groupOverview {
+  display: flex;
+  margin: 6px 5px;
+  width: 100px;
+  height: 22px;
+  padding: 4px 11px;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+}
+
+.groupOverview span {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.groupOverview img {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+.scoreBar {
+  position: absolute;
+  bottom: 40px;
+  width: 123px;
+  height: 4px;
+  background-image: linear-gradient(
+    to right,
+    #ff4747 0%,
+    #ff4747 60%,
+    #f7a8a1 60%,
+    #f7a8a1 100%
+  );
+}
+
+.twoContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  flex-direction: row;
+}
+
+.scoreContainerOne {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 15px;
+  flex-basis: 48%;
+  height: 140px;
+  margin: 10px 5px 10px 0px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  background-color: #f7f1ea;
+  position: relative;
+  min-width: 170px;
+}
+
+.scoreContainerTwo {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 15px;
+  flex-basis: 48%;
+  height: 140px;
+  margin: 10px 0px 10px 5px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  background-color: #ffe7e9;
+  min-width: 170px;
+}
+
+.titleScore {
+  color: #333;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.twoContainer span {
+  color: #777;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.scoreNumber {
+  color: #333;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.scoreImg {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 41px;
+  left: 80px;
+  padding: 3px 0px;
+}
+
+.scoreImg > div {
+  display: flex;
+  align-items: center;
+}
+
+.scoreImg img {
+  width: 10px;
+  height: auto;
+  margin-right: 10px;
+  padding: 3px 0px;
+}
+.scoreImgTwo {
+  padding: 3px 0px;
+  margin-top: 3px;
+}
+.scoreImgTwo img {
+  width: 10px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.scoreImg span {
+  white-space: nowrap;
+}
+
+.scoreImgTwo span {
+  white-space: nowrap;
+}
+
+.weekScore {
+  color: #777;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.weekScoreNumber {
+  font-weight: 700;
+}
+
+@media (min-width: 800px) {
+  .threeContainer {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
